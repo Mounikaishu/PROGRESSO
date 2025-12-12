@@ -1,0 +1,169 @@
+Loaded students: {'1275': {'github': 'Mounikaishu', 'leetcode': 'Mounika_kommireddyTaqai3', 'codeforces': 'Mounika_7897'}}
+Mapping for 1275 = {'github': 'Mounikaishu', 'leetcode': 'Mounika_kommireddyTaqai3', 'codeforces': 'Mounika_7897'}
+Combined result:
+{
+  "github": {
+    "repos": [
+      {
+        "name": "react-form",
+        "full_name": "Mounikaishu/react-form",
+        "html_url": "https://github.com/Mounikaishu/react-form",
+        "commits_count": 2,
+        "last_commit_date": "2025-12-09T14:39:08Z"
+      },
+      {
+        "name": "github_repo_tracker",
+        "full_name": "Mounikaishu/github_repo_tracker",
+        "html_url": "https://github.com/Mounikaishu/github_repo_tracker",
+        "commits_count": 5,
+        "last_commit_date": "2025-10-26T12:07:53Z"
+      },
+      {
+        "name": "Zombie-game",
+        "full_name": "Mounikaishu/Zombie-game",
+        "html_url": "https://github.com/Mounikaishu/Zombie-game",
+        "commits_count": 1,
+        "last_commit_date": "2025-10-24T13:20:53Z"
+      },
+      {
+        "name": "prime_number",
+        "full_name": "Mounikaishu/prime_number",
+        "html_url": "https://github.com/Mounikaishu/prime_number",
+        "commits_count": 2,
+        "last_commit_date": "2025-10-17T06:11:08Z"
+      },
+      {
+        "name": "factorial_num",
+        "full_name": "Mounikaishu/factorial_num",
+        "html_url": "https://github.com/Mounikaishu/factorial_num",
+        "commits_count": 4,
+        "last_commit_date": "2025-10-17T09:22:24Z"
+      },
+      {
+        "name": "sample",
+        "full_name": "Mounikaishu/sample",
+        "html_url": "https://github.com/Mounikaishu/sample",
+        "commits_count": 1,
+        "last_commit_date": "2025-10-17T11:10:37Z"
+      },
+      {
+        "name": "hacktoberfest_2025",
+        "full_name": "Mounikaishu/hacktoberfest_2025",
+        "html_url": "https://github.com/Mounikaishu/hacktoberfest_2025",
+        "commits_count": 391,
+        "last_commit_date": "2025-10-17T05:20:47Z"
+      },
+      {
+        "name": "HacktoberFEST--2025",
+        "full_name": "Mounikaishu/HacktoberFEST--2025",
+        "html_url": "https://github.com/Mounikaishu/HacktoberFEST--2025",
+        "commits_count": 230,
+        "last_commit_date": "2025-10-17T05:13:09Z"
+      },
+      {
+        "name": "C-Language-Programs",
+        "full_name": "Mounikaishu/C-Language-Programs",
+        "html_url": "https://github.com/Mounikaishu/C-Language-Programs",
+        "commits_count": 335,
+        "last_commit_date": "2025-10-17T05:08:07Z"
+      },
+      {
+        "name": "HactoberFest-2025",
+        "full_name": "Mounikaishu/HactoberFest-2025",
+        "html_url": "https://github.com/Mounikaishu/HactoberFest-2025",
+        "commits_count": 636,
+        "last_commit_date": "2025-10-17T04:59:50Z"
+      },
+      {
+        "name": "hacktoberfest-2025",
+        "full_name": "Mounikaishu/hacktoberfest-2025",
+        "html_url": "https://github.com/Mounikaishu/hacktoberfest-2025",
+        "commits_count": 43,
+        "last_commit_date": "2025-10-17T04:54:53Z"
+      },
+      {
+        "name": "clickhub_hactoberfest2025",
+        "full_name": "Mounikaishu/clickhub_hactoberfest2025",
+        "html_url": "https://github.com/Mounikaishu/clickhub_hactoberfest2025",
+        "commits_count": 83,
+        "last_commit_date": "2025-10-17T04:38:58Z"
+      },
+      {
+        "name": "Hactoberfestt2025",
+        "full_name": "Mounikaishu/Hactoberfestt2025",
+        "html_url": "https://github.com/Mounikaishu/Hactoberfestt2025",
+        "commits_count": 42,
+        "last_commit_date": "2025-10-17T04:34:46Z"
+      },
+      {
+        "name": "Hactoberfest2025",
+        "full_name": "Mounikaishu/Hactoberfest2025",
+        "html_url": "https://github.com/Mounikaishu/Hactoberfest2025",
+        "commits_count": 10,
+        "last_commit_date": "2025-10-17T04:30:12Z"
+      },
+      {
+        "name": "Hacktoberfest2025-Open-source-",
+        "full_name": "Mounikaishu/Hacktoberfest2025-Open-source-",
+        "html_url": "https://github.com/Mounikaishu/Hacktoberfest2025-Open-source-",
+        "commits_count": 949,
+        "last_commit_date": "2025-10-17T03:38:00Z"
+      },
+      {
+        "name": "hacktoberfest",
+        "full_name": "Mounikaishu/hacktoberfest",
+        "html_url": "https://github.com/Mounikaishu/hacktoberfest",
+        "commits_count": 3228,
+        "last_commit_date": "2025-10-12T10:44:47Z"
+      },
+      {
+        "name": "Hacktoberfest2025",
+        "full_name": "Mounikaishu/Hacktoberfest2025",
+        "html_url": "https://github.com/Mounikaishu/Hacktoberfest2025",
+        "commits_count": 4315,
+        "last_commit_date": "2025-10-07T14:25:08Z"
+      },
+      {
+        "name": "Qtcord",
+        "full_name": "Mounikaishu/Qtcord",
+        "html_url": "https://github.com/Mounikaishu/Qtcord",
+        "commits_count": 292,
+        "last_commit_date": "2025-04-22T02:48:46Z"
+      },
+      {
+        "name": "MyFinances",
+        "full_name": "Mounikaishu/MyFinances",
+        "html_url": "https://github.com/Mounikaishu/MyFinances",
+        "commits_count": 1196,
+        "last_commit_date": "2025-10-04T17:13:54Z"
+      },
+      {
+        "name": "plotsbot",
+        "full_name": "Mounikaishu/plotsbot",
+        "html_url": "https://github.com/Mounikaishu/plotsbot",
+        "commits_count": 234,
+        "last_commit_date": "2020-06-24T14:34:24Z"
+      },
+      {
+        "name": "Student_management",
+        "full_name": "Mounikaishu/Student_management",
+        "html_url": "https://github.com/Mounikaishu/Student_management",
+        "commits_count": 1,
+        "last_commit_date": "2025-09-26T10:02:17Z"
+      }
+    ],
+    "repos_count": 21,
+    "total_commits_estimate": 12000
+  },
+  "leetcode": {
+    "total_solved": 315,
+    "problems": []
+  },
+  "codeforces": {
+    "solved_count": 57,
+    "rating": 730,
+    "maxRating": 730,
+    "rank": "newbie",
+    "maxRank": "newbie"
+  }
+}

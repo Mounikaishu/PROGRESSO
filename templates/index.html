@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Student Progress Tracker</title>
+  <style>
+    body { font-family: Arial; margin: 24px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    .top { display:flex; gap:12px; align-items:center; margin-bottom:12px; }
+    form.inline { display:inline-block; }
+  </style>
+</head>
+
+<body>
+  <h2>Student Progress Tracker</h2>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+      {% for cat, msg in messages %}
+      <p><b>{{ cat }}:</b> {{ msg }}</p>
+      {% endfor %}
+  {% endif %}
+  {% endwith %}
+
+  <div class="top">
+    <!-- ADD STUDENT -->
+    <form action="{{ url_for('route_add_student') }}" method="post" style="display:flex; gap:8px;">
+      <input name="regno" placeholder="RegNo" required>
+      <input name="github" placeholder="GitHub username">
+      <input name="leetcode" placeholder="LeetCode username">
+      <input name="codeforces" placeholder="Codeforces handle">
+      <button type="submit">Add Student</button>
+    </form>
+
+    <!-- SUMMARY -->
+    <form action="{{ url_for('generate_summary') }}" method="post" style="margin-left:auto;">
+      <input name="count" placeholder="Limit (optional)" size="6">
+      <button type="submit">Download Summary CSV</button>
+    </form>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>RegNo</th>
+        <th>GitHub</th>
+        <th>LeetCode</th>
+        <th>Codeforces</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {% for regno, mapping in students.items() %}
+      <tr>
+        <td>{{ regno }}</td>
+        <td>{{ mapping.github }}</td>
+        <td>{{ mapping.leetcode }}</td>
+        <td>{{ mapping.codeforces }}</td>
+
+        <td>
+          <!-- PDF -->
+          <form class="inline" action="{{ url_for('generate_pdf') }}" method="post">
+            <input type="hidden" name="regno" value="{{ regno }}">
+            <button type="submit">PDF</button>
+          </form>
+
+          <!-- DELETE -->
+          <form class="inline" action="{{ url_for('route_delete_student', regno=regno) }}" method="post">
+            <button type="submit" onclick="return confirm('Delete this student?')">Delete</button>
+          </form>
+
+          <!-- EDIT -->
+          <details>
+            <summary>Edit</summary>
+
+            <form action="{{ url_for('route_update_student') }}" method="post" style="margin-top:6px;">
+              <input name="regno" value="{{ regno }}" readonly>
+              <input name="github" value="{{ mapping.github }}">
+              <input name="leetcode" value="{{ mapping.leetcode }}">
+              <input name="codeforces" value="{{ mapping.codeforces }}">
+              <button type="submit">Save</button>
+            </form>
+
+          </details>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+
+  </table>
+
+</body>
+</html>
